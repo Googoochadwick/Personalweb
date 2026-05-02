@@ -1,0 +1,62 @@
+body{
+
+    
+    color: #e3c38b;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 14px;
+    
+}
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('skull.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: -1;
+    filter: brightness(0.5) blur(3px);
+}
+
+#input{
+    background-color: #00000000;
+    color: #e3c38b;
+    border: solid #00000000;
+    outline-style: none;
+    width: 100%;
+    box-sizing: border-box;
+    caret-shape: block;
+    resize: none;
+}
+
+#input-container{
+    display: flex;
+    align-items: center;
+    height: 15px;
+}
+#loc{
+    color: #b2bcb4;
+}
+a{
+    color: #00ff00;
+    text-decoration: none;
+    font-style: italic;
+
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#help-w{
+    color: #e1e15d;
+    text-decoration: none;
+    font-style: italic;
+}
+#name{
+    color: #d29a8a;
+    
+}
