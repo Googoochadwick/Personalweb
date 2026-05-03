@@ -120,7 +120,7 @@ Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to
     <a href="https://learn.microsoft.com/en-us/users/arushanandsingh-0374/credentials/dfc4be24c786d14f?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank">View Certificate</a>
    
     
-            <img src="microsoft.png" alt="Microsoft Azure AI Certificate" style="width: 200px; margin-top: 10px;">   
+                  <img src="microsoft.png" alt="Microsoft Azure AI Certificate" style="width: 200px; margin-top: 10px;">   
 <span style="color: #949b93; font-family: monospace;">    
     ⡷⢾ ⠄ ⢀⣀ ⡀⣀ ⢀⡀ ⢀⣀ ⢀⡀ ⣰⡁ ⣰⡀   ⣎⣱ ⡇      ⢎⣱ ⣎⣵ ⣎⣵
     ⠇⠸ ⠇ ⠣⠤ ⠏  ⠣⠜ ⠭⠕ ⠣⠜ ⢸  ⠘⠤   ⠇⠸ ⠇ ⠉⠉   ⠠⠜ ⠫⠜ ⠫⠜
