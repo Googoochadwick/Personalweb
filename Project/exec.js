@@ -85,7 +85,9 @@ of the same.
         break;
     case 'certs':
         output.innerHTML += (output.innerHTML === "" ? '<span style="color: #949b93;">~ ></span> '+input.value : '<span style="color: #949b93;"><br>~ ></span> '+input.value) + `
-<span style="color: #f64b02;">   
+<span style="color: #f64b02;"> 
+
+            <img src="harvard.png" alt="Harvard CS50 Certificate" style="width: 200px; margin-top: 10px;">
     ⣇⣸ ⢀⣀ ⡀⣀ ⡀⢀ ⢀⣀ ⡀⣀ ⢀⣸   ⡎⠑ ⢎⡑ ⣏⡉ ⣎⣵ ⣏⡱
     ⠇⠸ ⠣⠼ ⠏  ⠱⠃ ⠣⠼ ⠏  ⠣⠼   ⠣⠔ ⠢⠜ ⠤⠜ ⠫⠜ ⠇ 
 </span>
@@ -94,7 +96,10 @@ of the same.
     web programming, and more.
 
     <a href="https://certificates.cs50.io/2d78657b-2231-415e-9a90-ba18d00b2d49.pdf?size=letter" target="_blank">View Certificate</a>
-<span style="color: #949b93;">
+
+    <span style="color: #949b93;">
+
+            <img src="microsoft.png" alt="Microsoft Azure Certificate" style="width: 200px; margin-top: 10px;">
     ⡷⢾ ⠄ ⢀⣀ ⡀⣀ ⢀⡀ ⢀⣀ ⢀⡀ ⣰⡁ ⣰⡀   ⣎⣱ ⢉⠝      ⢎⣱ ⣎⣵ ⣎⣵
     ⠇⠸ ⠇ ⠣⠤ ⠏  ⠣⠜ ⠭⠕ ⠣⠜ ⢸  ⠘⠤   ⠇⠸ ⠮⠤ ⠉⠉   ⠠⠜ ⠫⠜ ⠫⠜
 </span> 
@@ -103,7 +108,9 @@ of the same.
     features and tools.
     
     <a href="https://learn.microsoft.com/en-us/users/arushanandsingh-0374/credentials/dfc4be24c786d14f?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank">View Certificate</a>
+   
     
+            <img src="microsoft.png" alt="Microsoft Azure AI Certificate" style="width: 200px; margin-top: 10px;">   
 <span style="color: #949b93;">    
     ⡷⢾ ⠄ ⢀⣀ ⡀⣀ ⢀⡀ ⢀⣀ ⢀⡀ ⣰⡁ ⣰⡀   ⣎⣱ ⡇      ⢎⣱ ⣎⣵ ⣎⣵
     ⠇⠸ ⠇ ⠣⠤ ⠏  ⠣⠜ ⠭⠕ ⠣⠜ ⢸  ⠘⠤   ⠇⠸ ⠇ ⠉⠉   ⠠⠜ ⠫⠜ ⠫⠜
