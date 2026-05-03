@@ -12,17 +12,17 @@ switch(text) {
     case 'help':
         output.innerHTML += (output.innerHTML === "" ? '<span style="color: #949b93;">~ ></span> '+input.value : '<span style="color: #949b93;"><br>~ ></span> '+input.value) +  `
 
-<span style="color: #e1e15d;">whoami</span>              Who is Arush?
+<span class="cmd" data-cmd="whoami" style="color: #e1e15d;">whoami</span>              Who is Arush?
 
-<span style="color: #e1e15d;">projects</span>            My projects
+<span class="cmd" data-cmd="projects" style="color: #e1e15d;">projects</span>            My projects
 
-<span style="color: #e1e15d;">certs</span>               My Certifications
+<span class="cmd" data-cmd="certs" style="color: #e1e15d;">certs</span>               My Certifications
 
-<span style="color: #e1e15d;">socials</span>             Where to find me
+<span class="cmd" data-cmd="socials" style="color: #e1e15d;">socials</span>             Where to find me
 
-<span style="color: #e1e15d;">skills</span>              What I can do
+<span class="cmd" data-cmd="skills" style="color: #e1e15d;">skills</span>              What I can do
 
-<span style="color: #e1e15d;">daxfetch [-I]</span>       use [main] or [server] to get info about my machines
+<span class="cmd" data-cmd="daxfetch main" style="color: #e1e15d;">daxfetch [-I]</span>       use [main] or [server] to get info about my machines
 `
 
 break;
@@ -36,7 +36,7 @@ break;
 | └Vice-President of Geekroom Club                                                         |
 +------------------------------------------------------------------------------------------+
 
-To know more use <span style="color: #e1e15d;">skills</span> to see my skills and <span style="color: #e1e15d;">projects</span> to see my work.
+To know more use <span class="cmd" data-cmd="skills" style="color: #e1e15d;">skills</span> to see my skills and <span class="cmd" data-cmd="projects" style="color: #e1e15d;">projects</span> to see my work.
 or check out my <a href="https://www.linkedin.com/in/arush-anand-singh-062761346" target="_blank">LinkedIn</a> or <a href="https://www.geekroom-srmist.co.in/team" target="_blank">Club</a><br>`;
 
         
@@ -48,16 +48,23 @@ or check out my <a href="https://www.linkedin.com/in/arush-anand-singh-062761346
     case 'projects':
         output.innerHTML += (output.innerHTML === "" ? '<span style="color: #949b93;">~ ></span> '+input.value : '<span style="color: #949b93;"><br>~ ></span> '+input.value) + `
 
-<span style="color: #949b93;">███████╗ ██╗   ██╗███████╗████████╗███████╗ ███╗   ███╗    ███████╗ ████████╗ █████╗ ████████╗███████╗
-██╔════╝╚██╗ ██╔╝██╔════╝╚══██╔══╝██╔════╝ ████╗ ████║    ██╔════╝ ╚══██╔══╝██╔══██╗╚══██╔══╝██╔════╝
-███████╗ ╚████╔╝ ███████╗   ██║    █████╗   ██╔████╔██║    ███████╗     ██║   ███████║   ██║   ███████╗
-╚════██║  ╚██╔╝  ╚════██║   ██║    ██╔══╝   ██║╚██╔╝██║    ╚════██║     ██║   ██╔══██║   ██║   ╚════██║
-███████║   ██║   ███████║   ██║    ███████╗ ██║ ╚═╝ ██║    ███████║     ██║   ██║  ██║   ██║   ███████║
-╚══════╝   ╚═╝   ╚══════╝   ╚═╝    ╚══════╝ ╚═╝     ╚═╝    ╚══════╝     ╚═╝   ╚═╝  ╚═╝   ╚═╝   ╚══════╝
-</span>                                                                                                   
+<span style="color: #949b93;">███████╗ ██╗   ██╗███████╗████████╗███████╗ ███╗   ███╗    
+██╔════╝╚██╗ ██╔╝██╔════╝╚══██╔══╝██╔════╝ ████╗ ████║    
+███████╗ ╚████╔╝ ███████╗   ██║    █████╗   ██╔████╔██║    
+╚════██║  ╚██╔╝  ╚════██║   ██║    ██╔══╝   ██║╚██╔╝██║    
+███████║   ██║   ███████║   ██║    ███████╗ ██║ ╚═╝ ██║    
+╚══════╝   ╚═╝   ╚══════╝   ╚═╝    ╚══════╝ ╚═╝     ╚═╝    
 
-My Harvard CS50P final project made using Python, it is a terminal application able to display 
-live system resource usage and can also generate pdf reports of the same.
+ ███████╗ ████████╗ █████╗ ████████╗███████╗
+██╔════╝ ╚══██╔══╝██╔══██╗╚══██╔══╝██╔════╝
+███████╗     ██║   ███████║   ██║   ███████╗
+╚════██║     ██║   ██╔══██║   ██║   ╚════██║
+███████║     ██║   ██║  ██║   ██║   ███████║
+╚══════╝     ╚═╝   ╚═╝  ╚═╝   ╚═╝   ╚══════╝</span>
+
+My Harvard CS50P final project made using Python, it is a terminal application 
+able to display live system resource usage and can also generate pdf reports 
+of the same.
 
 <span style="color: #e1e15d;">link: <a href="https://github.com/Googoochadwick/SystemStats" target="_blank">GitHub Repository</a></span>`;
         break;
@@ -232,7 +239,7 @@ Use <span style="color: #e1e15d;">'certs'</span> to see my certifications.
 |and self hosted.                             |
 +---------------------------------------------+
 
-use <span style="color: #e1e15d;">'daxfetch server'</span> to know about my server
+use <span class="cmd" data-cmd="daxfetch server" style="color: #e1e15d;">'daxfetch server'</span> to know about my server
 
 ───────────────────────────────────
 
@@ -309,3 +316,13 @@ input.addEventListener('keydown', function(event) {
     // Call your switch case function
   });
 
+
+
+document.addEventListener("click", function(e) {
+    if (e.target.classList.contains("cmd")) {
+        const command = e.target.getAttribute("data-cmd");
+        
+        input.value = command;   // autofill textarea
+        processInput();          // execute command
+    }
+});
