@@ -126,7 +126,7 @@ Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to
     Fundamentals concepts related to artificial intelligence, 
     and the services in Microsoft Azure that can be used to 
     create AI solutions.
-name
+
     <a href="https://learn.microsoft.com/en-us/users/arushanandsingh-0374/credentials/3e6491c874db4d1e?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank">View Certificate</a>
 
 Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to clear the terminal or <span class="cmd" data-cmd="help" style="color: #e1e15d;">'help'</span> to see other commands.
