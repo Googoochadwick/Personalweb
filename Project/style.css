@@ -1,6 +1,5 @@
-body{
 
-    
+body{
     color: #e3c38b;
     margin: 0;
     padding-left: 20px;
@@ -64,4 +63,8 @@ a:hover {
 
 .cmd{
     cursor: pointer;
+}
+
+pre{
+    font-family: 'VT323', monospace;
 }

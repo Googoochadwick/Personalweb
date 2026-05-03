@@ -50,7 +50,7 @@ Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to
     case 'projects':
         output.innerHTML += (output.innerHTML === "" ? '<span style="color: #949b93;">~ ></span> '+input.value : '<span style="color: #949b93;"><br>~ ></span> '+input.value) + `
 
-<span style="color: #949b93;">███████╗ ██╗   ██╗███████╗████████╗███████╗ ███╗   ███╗    
+<span style="color: #949b93; font-family: monospace;">███████╗ ██╗   ██╗███████╗████████╗███████╗ ███╗   ███╗    
 ██╔════╝╚██╗ ██╔╝██╔════╝╚══██╔══╝██╔════╝ ████╗ ████║    
 ███████╗ ╚████╔╝ ███████╗   ██║    █████╗   ██╔████╔██║    
 ╚════██║  ╚██╔╝  ╚════██║   ██║    ██╔══╝   ██║╚██╔╝██║    
