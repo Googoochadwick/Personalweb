@@ -37,7 +37,9 @@ break;
 +------------------------------------------------------------------------------------------+
 
 To know more use <span class="cmd" data-cmd="skills" style="color: #e1e15d;">skills</span> to see my skills and <span class="cmd" data-cmd="projects" style="color: #e1e15d;">projects</span> to see my work.
-or check out my <a href="https://www.linkedin.com/in/arush-anand-singh-062761346" target="_blank">LinkedIn</a> or <a href="https://www.geekroom-srmist.co.in/team" target="_blank">Club</a><br>`;
+or check out my <a href="https://www.linkedin.com/in/arush-anand-singh-062761346" target="_blank">LinkedIn</a> or <a href="https://www.geekroom-srmist.co.in/team" target="_blank">Club</a><br>
+Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to clear the terminal or <span class="cmd" data-cmd="help" style="color: #e1e15d;">'help'</span> to see other commands.
+`;
 
         
         break;
@@ -66,7 +68,12 @@ My Harvard CS50P final project made using Python, it is a terminal application
 able to display live system resource usage and can also generate pdf reports 
 of the same.
 
-<span style="color: #e1e15d;">link: <a href="https://github.com/Googoochadwick/SystemStats" target="_blank">GitHub Repository</a></span>`;
+MORE ON THE WAY!!!
+
+<span style="color: #e1e15d;">link: <a href="https://github.com/Googoochadwick/SystemStats" target="_blank">GitHub Repository</a></span>
+
+Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to clear the terminal or <span class="cmd" data-cmd="help" style="color: #e1e15d;">'help'</span> to see other commands.
+`;
         break;
     case 'socials':
         output.innerHTML += (output.innerHTML === "" ? '<span style="color: #949b93;">~ ></span> '+input.value : '<span style="color: #949b93;"><br>~ ></span> '+input.value) + `
@@ -80,6 +87,7 @@ of the same.
 │ ├<span style="color: #e1e15d;">Gmail:</span>      <a href="mailto:arushanand@gmail.com" target="_blank">My Gmail address</a>
 └─────────────────────────────────────────────────────┘
 
+Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to clear the terminal or <span class="cmd" data-cmd="help" style="color: #e1e15d;">'help'</span> to see other commands.
 
 `;
         break;
@@ -118,9 +126,10 @@ of the same.
     Fundamentals concepts related to artificial intelligence, 
     and the services in Microsoft Azure that can be used to 
     create AI solutions.
-
+name
     <a href="https://learn.microsoft.com/en-us/users/arushanandsingh-0374/credentials/3e6491c874db4d1e?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank">View Certificate</a>
 
+Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to clear the terminal or <span class="cmd" data-cmd="help" style="color: #e1e15d;">'help'</span> to see other commands.
                    `;
         break;
     case 'daxfetch main':
@@ -145,8 +154,10 @@ of the same.
 │ development and other related work like photogammetry,
 │ 3D printing, CAD modeling etc.
 │   
-└ Use command <span style="color: #e1e15d;">'skills'</span> to know about my skills.
+└ Use command <span class="cmd" data-cmd="skills" style="color: #e1e15d;">skills</span> to know about my skills.
 └────────────────────────────────────────────────────┘
+
+Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to clear the terminal or <span class="cmd" data-cmd="help" style="color: #e1e15d;">'help'</span> to see other commands.
 
         `;
         break;
@@ -169,8 +180,10 @@ of the same.
 │ hosting the software to code, serve files & blocking 
 │ ads in my dorm room.
 │   
-└ Use command <span style="color: #e1e15d;">'skills'</span> to know about my skills.
+└ Use command <span class="cmd" data-cmd="skills" style="color: #e1e15d;">skills</span> to know about my skills.
 └────────────────────────────────────────────────────┘
+
+Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to clear the terminal or <span class="cmd" data-cmd="help" style="color: #e1e15d;">'help'</span> to see other commands.
 
         `;
         break;
@@ -286,6 +299,8 @@ use <span class="cmd" data-cmd="daxfetch server" style="color: #e1e15d;">'daxfet
 +---------------------------------------------+
 
 <a href="https://www.tinkercad.com/things/gQ1lE5SKVUd-aqua-shield-system?sharecode=e2nQ2ZF5Rf4-j7yGBqFUM6pDBF-47cKATbe6E9wR3nY" target="_blank">Refrence link</a>
+
+Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to clear the terminal or <span class="cmd" data-cmd="help" style="color: #e1e15d;">'help'</span> to see other commands.
 `;
         break;
     default:
@@ -296,6 +311,8 @@ use <span class="cmd" data-cmd="daxfetch server" style="color: #e1e15d;">'daxfet
 }
 input.value = "";
 input.focus();
+output.scrollTop = output.scrollHeight;
+window.scrollTo(0, document.body.scrollHeight);
 }
 
 function historyInput(){
