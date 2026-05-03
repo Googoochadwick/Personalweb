@@ -93,21 +93,22 @@ Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to
         break;
     case 'certs':
         output.innerHTML += (output.innerHTML === "" ? '<span style="color: #949b93;">~ ></span> '+input.value : '<span style="color: #949b93;"><br>~ ></span> '+input.value) + `
-<span style="color: #f64b02;"> 
+<span style="color: #f64b02; font-family: monospace;"> 
 
             <img src="harvard.png" alt="Harvard CS50 Certificate" style="width: 200px; margin-top: 10px;">
     ⣇⣸ ⢀⣀ ⡀⣀ ⡀⢀ ⢀⣀ ⡀⣀ ⢀⣸   ⡎⠑ ⢎⡑ ⣏⡉ ⣎⣵ ⣏⡱
     ⠇⠸ ⠣⠼ ⠏  ⠱⠃ ⠣⠼ ⠏  ⠣⠼   ⠣⠔ ⠢⠜ ⠤⠜ ⠫⠜ ⠇ 
 </span>
-    An introduction to programming using Python
-    ,popular language for general-purpose programming, data science, 
+    An introduction to programming using Python,
+    a popular language for general-purpose programming, data science, 
     web programming, and more.
 
     <a href="https://certificates.cs50.io/2d78657b-2231-415e-9a90-ba18d00b2d49.pdf?size=letter" target="_blank">View Certificate</a>
 
-    <span style="color: #949b93;">
+    <span style="color: #949b93; font-family: monospace;">
 
             <img src="microsoft.png" alt="Microsoft Azure Certificate" style="width: 200px; margin-top: 10px;">
+    
     ⡷⢾ ⠄ ⢀⣀ ⡀⣀ ⢀⡀ ⢀⣀ ⢀⡀ ⣰⡁ ⣰⡀   ⣎⣱ ⢉⠝      ⢎⣱ ⣎⣵ ⣎⣵
     ⠇⠸ ⠇ ⠣⠤ ⠏  ⠣⠜ ⠭⠕ ⠣⠜ ⢸  ⠘⠤   ⠇⠸ ⠮⠤ ⠉⠉   ⠠⠜ ⠫⠜ ⠫⠜
 </span> 
@@ -119,7 +120,7 @@ Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to
    
     
             <img src="microsoft.png" alt="Microsoft Azure AI Certificate" style="width: 200px; margin-top: 10px;">   
-<span style="color: #949b93;">    
+<span style="color: #949b93; font-family: monospace;">    
     ⡷⢾ ⠄ ⢀⣀ ⡀⣀ ⢀⡀ ⢀⣀ ⢀⡀ ⣰⡁ ⣰⡀   ⣎⣱ ⡇      ⢎⣱ ⣎⣵ ⣎⣵
     ⠇⠸ ⠇ ⠣⠤ ⠏  ⠣⠜ ⠭⠕ ⠣⠜ ⢸  ⠘⠤   ⠇⠸ ⠇ ⠉⠉   ⠠⠜ ⠫⠜ ⠫⠜
 </span>
