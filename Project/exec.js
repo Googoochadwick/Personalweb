@@ -96,6 +96,7 @@ Use <span class="cmd" data-cmd="clear" style="color: #e1e15d;">'clear'</span> to
 <span style="color: #f64b02; font-family: monospace;"> 
 
             <img src="harvard.png" alt="Harvard CS50 Certificate" style="width: 200px; margin-top: 10px;">
+    
     ⣇⣸ ⢀⣀ ⡀⣀ ⡀⢀ ⢀⣀ ⡀⣀ ⢀⣸   ⡎⠑ ⢎⡑ ⣏⡉ ⣎⣵ ⣏⡱
     ⠇⠸ ⠣⠼ ⠏  ⠱⠃ ⠣⠼ ⠏  ⠣⠼   ⠣⠔ ⠢⠜ ⠤⠜ ⠫⠜ ⠇ 
 </span>
